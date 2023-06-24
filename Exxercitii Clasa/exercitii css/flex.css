@@ -1,0 +1,38 @@
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flexbox;
+    margin: 0;
+    justify-content: center;
+}
+.container {
+    height: 300px;
+}
+header footer {
+    height: 70px;
+}
+header {
+    background-color: red;
+}
+footer {
+    background-color: green;
+    flex-grow: 1;
+}
+main {
+    background-color: blue;
+    width: 100%;
+}
+aside {
+    background-color: yellow;
+}
+.section-container {
+ display: flex;
+}

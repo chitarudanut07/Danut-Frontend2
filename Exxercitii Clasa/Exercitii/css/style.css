@@ -1,0 +1,71 @@
+* {
+    border: 1px blue solid;
+}
+
+html {
+border-color: green;
+}
+.container {
+border-color: red;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+[fictiv] {
+    background: cyan
+}
+
+[type="text"] {
+    background: lightgrey;
+}
+[type="password"] {
+    background: grey;
+}
+[placeholder^='my'] {
+    color: red;
+}
+[placeholder$='date2'] {
+    color: blue;
+}
+[:placeholder*='date'] {
+    border: 1px solid red ;
+}
+/*  */
+a:link{
+    color: lightblue;
+} 
+a :visited {
+    color:grey;
+}
+a :active {
+    color:blue;
+}
+a:hover {
+    border:1px solid black ;
+}
+   a :target{
+    color:red;
+   } 
+
+input:focus {
+    color:green;
+}
+type:text{
+    color: red;
+}
+input:target-text{
+    color: blue;
+}
+a:link {
+   border-color:1px solid green;
+}
