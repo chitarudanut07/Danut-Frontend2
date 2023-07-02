@@ -1,0 +1,17 @@
+.logo {
+    height:90px;
+    width: 90px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: yellow;
+    border: 2px solid yellow;
+    padding: 15px;
+}
+a:hover {
+    background-color: #7583F2;
+}
