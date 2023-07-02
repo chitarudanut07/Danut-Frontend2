@@ -1,0 +1,24 @@
+body p {
+    color: blueviolet;
+    font-weight: normal;
+    font-size: 40PX;
+}
+    
+p { 
+    color:azure;
+    font-size: 40px;
+    font-weight: bold;
+}
+.paragraph-style{
+    border: 1px solid purple;
+    padding: 20px;
+    font-size: 20px;
+}
+ul {
+    list-style-type:none ;
+    border: 1px solid red;
+}
+
+li{
+    color: #404dff;
+}
